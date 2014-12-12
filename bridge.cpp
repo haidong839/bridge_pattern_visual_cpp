@@ -7,7 +7,7 @@ using namespace std;
 using namespace System;
 
 
-ref class Color 
+ref class Color abstract
 {  
 public:
 	virtual void fillColor() = 0;  
@@ -31,7 +31,7 @@ public:
 	}  
 }; 
 
-ref class Shape 
+ref class Shape abstract
 { 
 public:
 	Shape(void)	{;}
